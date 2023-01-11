@@ -3,13 +3,8 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <div><Header/></div>
-      <ul>
-        <li>html</li>
-        <li>css</li>
-        <li>js</li>
-        <li>react</li>
-      </ul>
+      <Header/>
+      <Technologies/>
     </div>
   );
 }
@@ -20,6 +15,19 @@ const Header = () => {
         <a href='#s'>Home</a>
         <a href='#s'>News Feed</a>
         <a href='#s'>Messages</a>
+    </div>
+  );
+}
+
+const Technologies = () => {
+  return (
+    <div>
+      <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+        <li>react</li>
+      </ul>
     </div>
   );
 }
